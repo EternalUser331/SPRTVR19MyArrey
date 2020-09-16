@@ -5,7 +5,6 @@
  */
 package sptvr19myarrey;
 
-import static java.lang.Math.random;
 import java.util.Random;
 
 /**
@@ -15,6 +14,12 @@ import java.util.Random;
 class App {
     public void run() {
         System.out.println("----myArrey----");
+        System.out.println("Задание:");
+        System.out.println("Вычислите массив из 20 случайных четных целых чисел.");
+        System.out.println("Вычислите среднее арифметическое элементов массива");
+        System.out.println("без учета минимального и максимального элементов массива");
+        System.out.println("Решение: ");
+        System.out.println("Массив четных целых чисел");
         Random random = new Random();
         int[] numbers = new int[20];
         for (int i = 0; i < numbers.length; i++) {
@@ -26,3 +31,4 @@ class App {
     
     
 }
+
